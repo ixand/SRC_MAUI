@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SRC_system_of_registration_of_conscripts_.Views.AuthorizationView"
+             Title="Авторизація"
+             BackgroundColor="OliveDrab">
+    <VerticalStackLayout VerticalOptions="Center">
+
+        <Frame Margin="0,50,0,50"
+               BorderColor="Gray"
+               CornerRadius="10" 
+               WidthRequest="250"
+               HeightRequest="50"
+               >
+            <Entry x:Name="login"
+                TextColor="Black"
+                Placeholder="Логін" 
+                PlaceholderColor="Grey" 
+                VerticalTextAlignment="Center" 
+                HeightRequest="70"/>
+        </Frame>
+        
+        <Frame Margin="0,0,0,50"
+        BorderColor="Gray"
+        CornerRadius="10" 
+        WidthRequest="250"
+        HeightRequest="50"
+        >
+            <Entry x:Name="password"
+                TextColor="Black"
+                Placeholder="Пароль" 
+                PlaceholderColor="Grey" 
+                VerticalTextAlignment="Center" 
+                HeightRequest="70"
+                IsPassword="True"/>
+        </Frame>
+
+        <Button x:Name="SignInButton"
+            BackgroundColor="Green"
+            Text="Увійти"  
+            Clicked="SignIn"
+            WidthRequest="150"
+            HeightRequest="50"
+            />
+
+        
+    </VerticalStackLayout>
+</ContentPage>

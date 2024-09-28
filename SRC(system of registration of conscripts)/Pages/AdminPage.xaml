@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SRC_system_of_registration_of_conscripts_.Pages.AdminPage"
+             Title="Адмін панель"
+             BackgroundColor="BlanchedAlmond" 
+             >
+    <VerticalStackLayout VerticalOptions="Center">
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        <Button Margin="25"
+                
+            Padding="0"
+            
+            VerticalOptions="Center"
+            WidthRequest="100"
+            HeightRequest="50"
+            BackgroundColor="Green"
+            Clicked="Button_Clicked"
+            LineBreakMode="WordWrap"
+            Text="Перегляд заявок"
+            />
+
+            <Button 
+        Margin="25"
+        Grid.Column="1"
+         Padding="0"
+         VerticalOptions="Center"
+         WidthRequest="100"
+         HeightRequest="50"
+         BackgroundColor="Orange"
+         Clicked="Button_Clicked"
+         LineBreakMode="WordWrap"
+         Text="Зміна статусу"/>
+
+          
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

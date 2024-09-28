@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRC(system of registration of conscripts)", "SRC(system of registration of conscripts)\SRC(system of registration of conscripts).csproj", "{F561C7B5-122C-4A1A-ABC4-FC8FD3DF9B29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F561C7B5-122C-4A1A-ABC4-FC8FD3DF9B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F561C7B5-122C-4A1A-ABC4-FC8FD3DF9B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F561C7B5-122C-4A1A-ABC4-FC8FD3DF9B29}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F561C7B5-122C-4A1A-ABC4-FC8FD3DF9B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F561C7B5-122C-4A1A-ABC4-FC8FD3DF9B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F561C7B5-122C-4A1A-ABC4-FC8FD3DF9B29}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F2D8F7C-0573-477C-8C47-3363A16983C2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:SRC_system_of_registration_of_conscripts_.Pages"
+            x:Class="SRC_system_of_registration_of_conscripts_.Views.UserAccount"
+            xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BarBackgroundColor="OliveDrab"
+            BarTextColor="Black"
+            android:TabbedPage.OffscreenPageLimit="10"
+            android:TabbedPage.IsSmoothScrollEnabled="True"
+            android:TabbedPage.IsSwipePagingEnabled="True"
+            x:Name="user"
+            >
+    <local:AdminPage IconImageSource="admin.png" x:Name="admin_p" />
+    <local:ConscriptPage IconImageSource="warehouse.png" x:Name="conscript_p"/>
+    <local:Settings IconImageSource="setting.png"/>
+
+</TabbedPage>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SRC_system_of_registration_of_conscripts_.Pages.ConscriptPage"
+             Title="Кабінет"
+             BackgroundColor="AntiqueWhite"
+             >
+    <VerticalStackLayout>
+
+        <Grid Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+       
+        <Frame Grid.Column="0" Grid.Row="1"
+            WidthRequest="105"
+            HeightRequest="105"
+            BorderColor="Black"
+            HorizontalOptions="Start"
+            Margin="25"
+            CornerRadius="0" >
+        <Image 
+             x:Name="avatar"
+             Source="soldier1.jpg"
+             Aspect="AspectFill"
+             HeightRequest="100" 
+             WidthRequest="100" />
+        </Frame>
+
+        <Frame  Grid.Row="1" Grid.Column="1"
+            WidthRequest="200"
+            HeightRequest="80" 
+            BorderColor="Black" 
+            HorizontalOptions="End" 
+            Margin="25" 
+            CornerRadius="10">
+                <Label 
+                    Text="Мирошниченко Данило Павлович"
+                    HorizontalTextAlignment="Center"
+                    />
+            </Frame>
+            <Label Grid.Row="2" 
+                   Grid.Column="0"
+                   Text="Дата народження"
+                   TextColor="Black"
+                   Margin="20,0,0,0"/>
+
+            <Frame  Grid.Row="2" Grid.Column="0"
+                    Padding="0"
+              WidthRequest="100"
+              HeightRequest="40" 
+              BorderColor="Black" 
+              HorizontalOptions="Start"
+              VerticalOptions="Start"
+              Margin="30,25,0,30" 
+              CornerRadius="10">
+            <Label 
+            Text="28.09.1988"
+            TextColor="Black"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"
+            />
+            </Frame>
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Text="Повних років"
+                   TextColor="Black"
+                   Margin="34,65,0,45"
+                   VerticalOptions="Center"/>
+
+            <Frame  Grid.Row="2" Grid.Column="0"
+                Padding="0"
+            WidthRequest="80"
+            HeightRequest="40" 
+            BorderColor="Black" 
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Margin="40,0,0,0" 
+            CornerRadius="10">
+                <Label 
+        Text="36"
+        TextColor="Black"
+        VerticalTextAlignment="Center"
+        HorizontalTextAlignment="Center"
+        />
+            </Frame>
+
+            <Label Grid.Row="2"
+        Grid.Column="1"
+        Text="Адреса проживання"
+        TextColor="Black"
+        Margin="20,0,0,30"
+        VerticalOptions="Start"/>
+            <Frame  Grid.Row="2" Grid.Column="1"
+                 WidthRequest="170"
+                 HeightRequest="100" 
+                 BorderColor="Black" 
+                 Margin="0,25,25,0" 
+                 CornerRadius="10">
+                <Label Text="м.Дніпро, вул.Унисенка 22, кв.27"/>
+
+            </Frame>
+
+
+            <Label Grid.Row="3"
+            Grid.Column="0"
+            Text="Мобільний телефон"
+            TextColor="Black"
+            Margin="30,20,0,50"
+            VerticalOptions="Center"
+            />
+            <Frame  Grid.Row="3" Grid.Column="0"
+                    VerticalOptions="Center"
+         WidthRequest="150"
+         HeightRequest="50" 
+         BorderColor="Black" 
+         Margin="30,50,25,0" 
+         CornerRadius="5"
+         Padding="0">
+                <Label Text="+380975678712" 
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>
+
+            </Frame>
+
+
+            <Label Grid.Row="3"
+                  Grid.Column="1"
+                  Text="Електронна пошта"
+                  TextColor="Black"
+                  Margin="30,20,0,50"
+                  VerticalOptions="Center"
+                    />
+            <Frame  Grid.Row="3" Grid.Column="1"
+           VerticalOptions="Center"
+            WidthRequest="170"
+            HeightRequest="50" 
+            BorderColor="Black" 
+            Margin="30,50,25,0" 
+            CornerRadius="5"
+            Padding="0">
+                <Label Text="danmirosh@gmail.com" 
+              VerticalTextAlignment="Center"
+              HorizontalTextAlignment="Center"/>
+
+            </Frame>
+
+            
+
+
+            <Label Grid.Row="4"
+                Grid.Column="0"
+                Text="Статус призову"
+                TextColor="Black"
+                Margin="50,20,0,50"
+                VerticalOptions="Start"
+/>
+            <Frame  Grid.Row="4" Grid.Column="0"
+        VerticalOptions="Start"
+         WidthRequest="150"
+         HeightRequest="50" 
+         BorderColor="Red" 
+         Margin="30,50,25,50" 
+         CornerRadius="0"
+         BackgroundColor="White"
+         Padding="0">
+                <Label 
+                    Text="Тимчасово непридатний" 
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    TextColor="Black"/>
+            </Frame>
+
+            <Label Grid.Row="4"
+                    Grid.Column="1"
+                    Text="Дата останього оновлення : 21.05.2024"
+                    TextColor="Black"
+                    Margin="20,55,0,0"
+                    VerticalOptions="Start"
+                   VerticalTextAlignment="End"/>
+
+
+            <Button Grid.Column="1"
+                      Grid.Row="4"
+                      WidthRequest="100"
+                      HeightRequest="50"
+                      Padding="0"
+                      Margin="0,200,0,0"
+                      BackgroundColor="Green" 
+                      Text="Змінити дані"
+                      BorderWidth="2"
+                      CornerRadius="0"
+                      VerticalOptions="End"
+                      HorizontalOptions="Center"
+                        Clicked="Button_Clicked"/>
+                      </Grid>
+    </VerticalStackLayout>
+</ContentPage>

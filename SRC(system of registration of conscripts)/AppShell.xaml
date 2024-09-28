@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SRC_system_of_registration_of_conscripts_.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SRC_system_of_registration_of_conscripts_.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="SRC_system_of_registration_of_conscripts_">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:AuthorizationView}"
+        Route="MainPage" />
+
+</Shell>
